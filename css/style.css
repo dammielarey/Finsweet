@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:80%;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section ul {
+    list-style: none;
+    display: flex;
+}
+
+.road-assistance {
+    display: flex;
+    padding-left: 20px;
+}
+
+.right-section ul li {
+    margin-right: 20px;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.right-section .navigation {
+    border-right: 2px solid #ccc;
+}
+
+.road-assistance .icon {
+    margin-right: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+
+/* h-section */
+#hero-section .text-section{
+    width: 45%;
+} 
+
+#hero-section, #quote-section {
+    padding: 80px 0;
+}
+
+#hero-section .image-section {
+    background-image: url(../img/header-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 55%;
+    min-height: 68vh;
+}
+
+.text-section h1 {
+    font-size: 64px;
+}
+
+.btn {
+    background: #FF6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 35px;
+    display: inline-block;
+    color: #fff;
+}
+
+.time-section {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.text-section .image-box {
+    width: 5%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-section .time-text {
+    width: 95%;
+}
+
+.time-section img {
+    width: 100%;
+}
+
+.grey{
+    color: #939191;
+}
+
+/* s-section */
+
+#s-section {
+    background: #E2E6E9;
+}
+
+#s-section .left-section, #s-section .right-form-section{
+    width: 45%;
+}
+
+#s-section ul {
+    list-style: none;
+}
+
+#s-section ul li {
+    margin-bottom: 20px;
+}
+
+#s-section .left-section h2 {
+    margin-bottom: 30px;
+    font-size: 58px;
+}
+
+#s-section .left-section .image-box {
+    width: 5%;
+    margin-right: 10px;
+}
+
+#s-section .left-section .image-box img {
+    width: 100%;
+}
+
+#s-section .left-section .text-box {
+    width: 50%;
+}
+
+#s-section .left-section .text-box h5 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+#s-section .right-form-section h3{
+    font-size: 48px;
+}
+
+#s-section .right-form-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* offer-section */
+
+.t-offer h2 {
+    font-size: 58px;
+}
+
+#o-section h5 {
+    font-size: 32px;
+}
+
+#o-section {
+    padding: 80px 0;
+}
+#o-section .q-offer {
+    margin-top: 50px;
+}
+
+#o-section .l-offer, #o-section .r-offer {
+    width: 45%;
+}
+
+#o-section ul {
+    list-style: none;
+}
+
+#o-section .l-offer h2 {
+    font-size: 58px;
+    margin-bottom: 20px;
+}
+
+#o-section .image-box {
+    width: 20%;
+    margin-right: 20px;
+    margin-bottom: 45px;
+}
+
+#o-section .r-offer p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.d-line {
+    border-left: 2px #FF6433 dotted;
+    height: 53px;
+    margin-left: 4%;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+/* service-section */
+
+#service {
+    background-color: rgb(242, 242, 242);
+    padding: 80px 0px;
+}
+
+#service h2 {
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 50px;
+}
+
+#service .f-service {
+    text-align: center;
+}
+
+#service .f-service h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#service .f-service p {
+    opacity: 0.9;
+}
+
+
+.help{
+    display: flex;
+    justify-content: center;
+}
+
+.reach{
+    background-color: #fff;
+    width: 220px;
+    height: 170px;
+    margin: 3px;
+}
+
+.ola{
+    text-align: center;
+    padding: 40px;
+}
+
+.lk{
+    padding-left: 750px;
+    margin-bottom: 25px;
+    font-size: 12px;
+}
+
+span{
+    width: 200px;
+    padding-left: 10px;
+}
+
+/* Touch section */
+
+.car-flex{
+    display: flex;
+}
+
+.cont-flex .img-car {
+    background-image: url(../img/car-1.png);
+    display: flex;
+    height: 50vh;
+    width: 50%;
+    background-size: cover;
+    position: relative;
+    height: 50vh;
+}
+
+.cont-flex .img-2{
+    background-image: url(../img/2\ \(1\).png);
+    display: flex;
+    height: 50vh;
+    width: 50%;
+    background-size: cover;
+    height: 50vh;
+}
+
+.car-flex .get-text{
+    background: #FF6433;
+    position: absolute;
+    height: 50vh;
+    top: 0;
+    bottom: 0;
+    left: 33%;
+    right: -10%;
+    padding: 20px;
+}
+
+.get-text h3{
+    font-size: 40px;
+    margin-top: 78px;
+    color: white;
+    font-weight: 700;
+}
+
+.get-text button{
+    background: black;
+    border-radius: 12px;
+    padding: 16px 40px;
+    font-size: 18px;
+    margin-top: 35px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.get-text a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+/* Experience section */
+
+#experience-section{
+    display: flex;
+    background-color: #F2F2F2;
+    position: relative;
+}
+
+#experience-section h2 {
+    font-size: 58px;
+    padding: 32px 73px 0px;
+    color: #661CE7;
+}
+
+#experience-section p {
+    font-size: 24px;
+    padding: 20px 20px 29px;
+    text-align: center;
+    font-weight: 600 bold;
+}
+
+/* Brand section  */
+
+#brand .ru{
+    width: 80%;
+}
+
+#brand .ru img{
+    width: 100%;  
+}
+
+.b-text h3{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+  
+  
+.cu{
+    background-color: white;
+    width:22%;
+    height:170px;
+    margin: 0 5px;
+}
