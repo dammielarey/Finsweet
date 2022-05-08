@@ -1,3 +1,175 @@
 @media (max-width: 1025px) {
-    
+    .text-section h1 {
+        font-size: 40px;
+    }
+
+    #s-section .right-form-section input {
+    padding: 18px 30px;
+    width: 100%;
+    border: 2px solid #E2E6E9;
+    }
+
+    #s-section .right-form-section h3 {
+        font-size: 33px;
+    }
+
+    #s-section .left-section h2 {
+        margin-bottom: 22px;
+        font-size: 33px;
+    }
+
+    #o-section .l-offer h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    #o-section h5 {
+        font-size: 22px;
+    }
+
+    #service .f-service p {
+        font-size: 21px;
+        opacity: 4.9;
+    }
+
+    #service .f-service h2 {
+        font-size: 38px;
+        margin-bottom: 30px;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    #experience-section {
+        display: flex;
+        background-color: #F2F2F2;
+        position: relative;
+        margin: 0px 0px 0px -148px;
+    }
+
+    #faq-section h2 {
+        text-align: center;
+        padding-bottom: 60px;
+        font-size: 41px;
+        font-weight: 700;
+    }
+
+    .footer-nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 769px) {
+    .container{
+        width: 85%;
+    }
+
+    .main-header{
+        font-size: 13px;
+    }
+
+    .text-section h1 {
+        font-size: 33px;
+    }
+
+    #s-section .left-section h2 {
+        margin-bottom: 23px;
+        font-size: 25px;
+    }
+
+    #s-section .left-section .text-box h5 {
+        font-size: 15px;
+        margin-bottom: 6px;
+    }
+
+    #s-section .right-form-section h3 {
+        font-size: 25px;
+    }
+
+    .btn{
+        margin: 30px 0 0;
+        padding: 14px 40px;
+    }
+
+    #o-section .l-offer h2 {
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+
+    #o-section h5 {
+        font-size: 21px;
+    }
+
+    .d-line {
+        border-left: 3px #FF6433 dotted;
+        height: 17px;
+        margin-left: 6%;
+        margin-top: -46px;
+        margin-bottom: 10px;
+    }
+
+    #o-section .r-offer p {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+
+    #o-section .l-offer, #o-section .r-offer {
+        width: 48%;
+    }
+
+    #o-section ul {
+        list-style: none;
+        padding-top: 10%;
+        font-size: xx-large;
+    }
+
+    #service .f-service h2 {
+    font-size: 24px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+    }
+
+    #service .f-service p {
+        font-size: 18px;
+        opacity: 4.9;
+    }
+
+    .lk {
+        padding-left: 522px;
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+
+    #experience-section h2 {
+        font-size: 34px;
+        padding: 13px 35px 3px -1px;
+        color: #661CE7;
+    }
+
+    #customer-section h2 {
+        font-weight: 650;
+        font-size: 25px;
+        text-align: center;
+        padding-left: 147px;
+        padding-right: 137px;
+        padding-bottom: 35px;
+    }
+
+    .f-r{
+        flex-direction: column;
+    }
+
+    .copyright{
+        margin-top: 15px;
+        margin-right: 14px;
+    }
+}
+
+@media (max-width: 426px){
+    .main-header{
+        flex-direction: column;
+    }
 }
