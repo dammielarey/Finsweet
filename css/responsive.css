@@ -171,5 +171,162 @@
 @media (max-width: 426px){
     .main-header{
         flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .right-section{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        display: none;
+    }
+
+    .right-section .navigation ul{
+        flex-direction: column;
+    }
+
+    .right-section .navigation{
+        border: none;
+        width: 100%;
+    }
+
+    .right-section ul li a{
+        display: block;
+    }
+
+    .road-assistance{
+        padding: 10px 0;
+    }
+
+    .right-section ul li{
+        padding: 10px 0px;
+        margin-right: 0px;
+    }
+
+    .flex-sm-column{
+        flex-direction: column;
+    }
+
+    #hero-section .text-section{
+        order: 2;
+    }
+
+    #hero-section .image-section{
+        order: 1;
+    }
+
+    #hero-section .text-section, #hero-section .image-section{
+        width: 100%;
+    }
+
+    .text-section h1 {
+        font-size: 34px;
+    }
+/* 
+    .quote-flex{
+        flex-direction: column;
+    } */
+
+    #s-section .left-section, #s-section .right-form-section{
+        width: 100%;
+    }
+
+    #s-section .left-section .image-box img{
+        width: 120%;
+    }
+
+    #s-section .right-form-section h3 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 17px;
+    }
+
+    #s-section .left-section, #s-section .right-form-section {
+        width: 100%;
+        align-items: center;
+        margin: 0;
+    }
+
+    #o-section .l-offer, #o-section .r-offer {
+        width: 100%;
+        align-items: center;
+    }
+
+    .help{
+        align-items: center;
+    }
+
+    .lk{
+        align-items: center;
+        padding-left: 141px;
+        font-size: 18px;
+    }
+
+    .get-text h3 {
+        font-size: 15px;
+        margin-top: 2px;
+        color: white;
+        font-weight: 120;
+    }
+
+    .get-text button {
+        background: black;
+        border-radius: 14px;
+        padding: 0;
+        font-size: 12px;
+        margin-top: 2px;
+        display: inline-block;
+        margin-bottom: 1px;
+    }
+
+    .align{
+        text-align: center;
+        align-items: center;
+    }
+
+    #experience-section {
+        background-color: #F2F2F2;
+        position: relative;
+        margin: 0px 0px 0px -148px;
+    }
+
+    #experience-section h2 {
+        text-align: center;
+        align-items: center;
+        padding: 20px 3px;
+    }
+
+    #experience-section p {
+        font-size: 26px;
+        padding: 0;
+        text-align: center;
+        align-items: center;
+        font-weight: 200 bold;
+    }
+
+    #brand .ru img {
+        width: 10rem;
+    }
+
+    #customer-section h2 {
+        font-weight: 650;
+        font-size: 25px;
+        text-align: center;
+        padding: 1px 5px;
+        margin: 1px 2px;
+    }
+
+    #customer-section .cu-comment{
+        margin: 18px 5px;
+    }
+
+    .comment {
+        background-color: #fff;
+        width: 100%;
+        padding: 37px;
+    }
+
+    .c-s-b{
+        flex-direction: column;
     }
 }
