@@ -263,7 +263,7 @@
     }
 
     .get-text h3 {
-        font-size: 15px;
+        font-size: 23px;
         margin-top: 2px;
         color: white;
         font-weight: 120;
@@ -305,7 +305,8 @@
     }
 
     #brand .ru img {
-        width: 10rem;
+        width: 6rem;
+        align-items: center;
     }
 
     #customer-section h2 {
@@ -328,5 +329,32 @@
 
     .c-s-b{
         flex-direction: column;
+    }
+
+    .l-s-l h2 {
+        font-weight: 700;
+        font-size: 31px;
+        padding-bottom: 57px;
+    }
+
+    #faq-section h2 {
+        text-align: center;
+        padding-bottom: 60px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .q-f p {
+        padding: 12px 19px 1px 5px;
+        color: #939191;
+        font-size: 11px;
+        align-items: center;
+    }
+
+    .m-f {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 }
